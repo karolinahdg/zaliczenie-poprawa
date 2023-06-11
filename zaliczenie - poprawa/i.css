@@ -1,0 +1,909 @@
+    
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+        .container{
+            width: 100vw;
+        }
+
+        body{
+            margin:0;
+            padding:0;
+
+            font-family: lato;
+         
+            color:rgb(255, 255, 255);
+            background-image: linear-gradient(to left, #003451, #1a2942, #201f32, #1e1622, #170e15, #170e15, #170e15, #170e15, #1e1622, #201f32, #1a2942, #003451);        }
+
+
+
+        .nav{
+            margin:0;
+            padding:0;
+            width:94vw;
+            height: 8vh;
+            padding-top:2vh;
+
+            display: flex;
+            justify-content: space-between;
+            margin-left:3vw;
+            margin-right:3vw;
+            align-items: center;
+            
+        }
+
+        .logo{
+            font-size: 5rem;
+          
+            font-family: museomoderno;
+            font-weight: 900;
+            text-shadow: 0 0 15px rgba(74, 183, 255, 0.582), 0 0 10px rgba(0, 153, 255, 0.233);
+            color: #00a2ff;
+            transition: 0.5s;
+        }
+
+        .logo:hover{
+            text-shadow: 0 0 15px rgb(0, 153, 255), 0 0 10px rgb(0, 26, 255);
+        }
+
+        .nav-right{
+            height: 4vh;
+            width: 11vw;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .b-log-in{
+            border:1px rgba(255, 255, 255, 0.596) solid;
+            background: none;
+            border-radius:5px;
+            width:5vw;
+            transition: 0.5s;
+        }
+
+        .b-sign-in{
+           border:none;
+            background: rgba(0, 183, 255, 0.459);
+            color:rgba(255, 255, 255, 0.767);
+            border-radius:5px;
+            width:5vw;
+            transition: 0.5s;
+        }
+
+        .log-in{
+            
+            color:rgba(255, 255, 255, 0.877);
+            font-size: 1.2rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 4vh;
+            transition: 0.5s;
+        }
+
+        .log-in:hover{
+            background: rgba(255, 255, 255, 0.205);
+        }
+
+        .sign-in{
+            background: none;
+            border:none;
+            color:rgba(255, 255, 255, 0.877);
+            font-size: 1.2rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 4vh;
+            width: 5vw;
+            transition: 0.5s;
+            border-radius:5px;
+        }
+
+        .sign-in:hover{
+            background: #00a2ffce;
+        }
+
+
+
+
+
+
+
+
+
+
+        .c-offer{
+            padding:0;
+            margin:0;
+            width:65vw;
+            height: 45vh;
+            background-image: radial-gradient(circle, rgba(0, 162, 255, 0.185) 0%, rgba(0, 0, 0, 0) 46%);
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-right: auto;
+            margin-left: auto;
+
+            margin-top:5vh;
+
+            border-radius: 25px 25px 25px 25px;
+
+           
+        }
+
+        .payment-method{
+            padding:0;
+            margin:0;
+
+            width:33vw;
+            height: 20vh;
+            background: rgba(255, 0, 98, 0);
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .r-p-month, .r-p-year{
+            width:14vw;
+            height: 19vh;
+            margin-top:4vh;
+            margin-bottom:4vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+            background-image: linear-gradient(0deg, rgba(0, 140, 255, 0.137) 0%, rgba(255, 255, 255, 0.027) 62%);
+            border-radius: 10px;
+        }
+
+        .r-p-month:hover, .r-p-year:hover{
+            width: 16vw;
+            height: 21vh;
+        }
+
+      
+       
+        
+
+        .offer-p{
+            margin-top:2vh;
+            font-size: 1.3rem;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .r-p-time{
+            font-size: 1rem;
+            position:static;
+           
+            color:rgba(255, 255, 255, 0.726);
+        }
+
+        .r-p-price{
+            position: absolute;
+            font-weight: 900;
+            font-size: 2rem;
+        }
+
+        .r-p-cancel{
+            position:static;
+            font-size: 1rem;
+            color:rgba(255, 255, 255, 0.486);
+        }
+
+        .r-p-save{
+            position:static;
+
+            color:rgba(0, 153, 255, 0.829);
+            font-size: 1rem;
+        }
+
+        .button-sign-in-bigger{
+            font-size: 1.6rem;
+            margin-bottom:1vh;
+            width:11vw;
+            height: 6vh;
+            
+            border-radius:10px;
+            background: none;
+            transition: 0.5s;
+            margin-top:4vh;
+           
+            font-weight: 600;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: rgba(0, 0, 0, 0.452);
+            color: rgb(255, 255, 255);
+            
+        }
+
+        .button-sign-in-bigger:hover{
+            background-color: #00a2ff88;
+            color: rgb(255, 255, 255);
+            width: 12vw;
+            height: 7vh;
+            font-size: 1.8rem;
+        }
+
+        .bigger-a{
+            color:rgb(255, 255, 255);
+           
+        }
+
+
+       
+
+        .logo-offer{
+            font-size: 8rem;
+            margin: 0;
+            padding: 0;
+            line-height: 13vh;
+        }
+
+        .r-p-p{
+            color:#ffffff
+;
+            font-weight: 300;
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .all-the-must-sees{
+            width:100vw;
+            height: 51vh;
+
+            background: rgba(0, 0, 0, 0.192);
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            margin-top:5vh;
+
+        }
+
+        .a-t-m-s-movies{
+            width:80vw;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .a-t-m-s-m-pic{
+            width:15vw;
+            height: 25vh;
+            border-radius: 10px;
+            background: rgb(0, 0, 0);
+            box-shadow: 21px 21px 21px -12px rgba(0, 0, 0, 0.74);
+           transition: 0.5s;
+        }
+
+        .a-t-m-s-m-pic:hover{
+            width: 16vw;
+            height: 26vh;
+        }
+
+        h4{
+            font-size: 4rem;
+            position: relative;
+            margin:0;
+            margin-top:5vh;
+            text-align: center;
+            font-weight: 300;
+            transition: 0.5s;
+        }
+
+        h4:hover, .a-t-m-s-text:hover, .text-p:hover, .banner-text-h:hover{
+            text-shadow: 0 0 15px rgb(255, 255, 255), 0 0 10px rgba(0, 153, 255, 0.24);
+        }
+
+        .a-t-m-s-text{
+            padding-bottom:1vh;
+            transition: 0.5s;
+        }
+
+        .text-p{
+            padding-top:1vh;
+            font-size: 1.2rem;
+            margin:0;
+            transition: 0.5s;
+        }
+
+
+
+
+
+
+
+
+
+
+        .banner{
+            width:100vw;
+            height: 40vh;
+
+            background-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 162, 255, 0) 100%);
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-top:5vh;
+        }
+
+        .banner-pic{
+            width:25vw;
+            height: 40vh;
+
+            margin-left:2vw;
+            margin-right:2vw;
+        }
+
+        h3{
+            font-size: 3rem;
+            margin:0;
+            margin-bottom:2vh;
+            font-weight: 300;
+            transition: 0.5s;
+        }
+
+
+
+
+        .text-p{
+            color:#ffffffb7;
+            font-weight: 100;
+        }
+
+
+
+
+
+       .questions-n-answers{
+        width:40vw;
+       
+        background:#0000004d;
+        border-radius: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        margin-top:3vh;
+
+        padding-top:1vh;
+        padding-bottom:1vh;
+
+        margin-left:auto;
+        margin-right:auto;
+
+       }
+
+       .q{
+        position: relative;
+        display: inline-block;
+        font-weight:600;
+        padding-top:1vh;
+        padding-bottom:1vh;
+        color:white;
+        margin-left:2vw;
+        margin-right:2vw;
+
+       }
+
+       .a{
+        display: none;
+        font-weight:400;
+        color:rgba(255, 255, 255, 0.788);
+       }
+
+       .q:active .a{
+        display: block;
+
+       }
+
+       .hint{
+        font-size: 0.8rem;
+        margin-left:2vw;
+        color:#00a2ffbb;
+       }
+
+       .q-n-a{
+        width:100vw;
+        height: 50vh;
+       }
+
+       .f-a-q{
+        font-size: 3.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin:0;
+        padding:0;
+        margin-top:3vh;
+
+        font-weight: 300;
+       }
+
+
+    
+
+
+
+       .footer{
+        width: 100vw;
+        
+        
+        font-size: 0.7rem;
+        background: rgba(0, 0, 0, 0.671);
+        color:#00a2ffcb;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .info{
+        list-style-type:none;
+
+        width:40vw;
+        
+        display: flex;
+        justify-content: space-around;
+        margin-bottom:3vh;
+        margin-top:3vh;
+       }
+
+       #language{
+        width: 8vw;
+        
+
+        margin-bottom:1vh;
+        margin-top:1vh;
+        font-size: 1.7rem;
+        text-align: center;
+        
+        border:none;
+        background: rgba(0, 0, 0, 0);
+        color:white;
+       }
+
+       .lang-option{
+        background-color: black;
+        color:white;
+ 
+
+       }
+
+       .footer-phone-number{
+        color:white;
+        font-size: 1rem;
+        margin:0;
+       }
+
+       a{
+        text-decoration: none;
+        color:#00a2ff;
+       }
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 1772px) {
+        .c-offer{
+            width:60vw;
+        }
+
+        .r-p-month, .r-p-year{
+            width:13vw;
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+        .log-in, .sign-in{
+            width: 6vw;
+        }
+
+        .b-log-in, .b-sign-in{
+            width: 7vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .b-log-in:hover{
+            background: rgba(255, 255, 255, 0.185);
+        }
+
+        .b-sign-in:hover{
+           background: #00a2ff;
+        }
+
+        .nav-right{
+            width: 16vw;
+            justify-content: space-between;
+        }
+
+        .button-sign-in-bigger{
+            font-size: 1.3rem;
+            width: 15vw;
+        }
+
+        .button-sign-in-bigger:hover{
+            width: 20vw;
+        }
+
+        .a-t-m-s-m-pic{
+            width: 14vw;
+            height: 20vh;
+        }
+
+        .a-t-m-s-m-pic:hover{
+            width: 15vw;
+            height: 21vh;
+        }
+
+        .r-p-price{
+            font-size: 1.5rem;
+        }
+
+        .all-the-must-sees{
+            height: 42vh;
+        }
+
+        .banner-pic{
+            width: 30vw;
+            height: 40vh;
+        }
+
+        .q-n-a{
+            height: 55vh;
+        }
+
+    }
+    
+    @media only screen and (max-width: 1024px) {
+        .nav-right{
+            width: 20vw;
+        }
+
+        .b-log-in, .b-sign-in{
+            width: 9vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .log-in, .sign-in{
+            width: 20vw;
+        }
+
+        .q-n-a{
+            height: 60vh;
+        }
+
+        .r-p-month, .r-p-year{
+            width: 20vw;
+        }
+
+        .payment-method{
+            width: 42vw;
+        }
+
+        .button-sign-in-bigger{
+            width:16vw;
+            height: 5vh;
+            font-size: 1.1rem;
+        }
+
+        .a-t-m-s-m-pic{
+            width: 20vw;
+            height: 20vh;
+        }
+
+        .a-t-m-s-m-pic:hover{
+            width: 21vw;
+            height: 21vh;
+        }
+
+        .all-the-must-sees{
+            height: 35vw;
+        }
+
+        .a-t-m-s-movies{
+            width:90vw;
+        }
+
+        .banner-pic{
+            width:450px;
+            height: 340px;
+        }
+
+        .banner-text{
+            padding-left:5vw;
+            padding-right:5vw;
+        }
+
+        #language{
+            font-size: 1.1rem;
+        }
+
+        .r-p-price{
+            font-size: 1.4rem;
+        }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .offer-p{
+            padding-left:2vw;
+        }
+
+        .r-p-time{
+            font-size: 0.7rem;
+        }
+
+        .r-p-price{
+            font-size: 1rem;
+        }
+
+        .r-p-cancel, .r-p-save{
+            font-size: 0.7rem;
+        }
+
+        .r-p-year, .r-p-month{
+            height: 12vh;
+            width: 20vw;
+        }
+
+        .r-p-year:hover, .r-p-month:hover{
+            height: 14vh;
+            width: 22vw;
+        }
+
+        .payment-method{
+            height: 12vh;
+            width: 50vw;
+        }
+
+        .button-sign-in-bigger{
+            width: 30vw;
+            font-size: 1.2rem;
+            height: 6vh;
+        }
+
+        .button-sign-in-bigger:hover{
+            width: 40vw;
+        }
+
+        .nav{
+            margin-bottom: 15vh;
+        }
+
+        .c-offer{
+            height: 40vw;
+        }
+
+        .offer-p{
+            font-size: 0.7rem;
+            padding-bottom:1vh;
+        }
+
+        .nav-right{
+            width: 25vw;
+        }
+
+        .b-log-in, .b-sign-in{
+            width: 12vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .log-in, .sign-in{
+            width: 13vw;
+        }
+
+    
+        .a-t-m-s-m-pic{
+           display: none;
+        }
+
+        .all-the-must-sees{
+            height: 35vh;
+            margin-top:15vh;
+            margin-bottom: 10vh;
+        }
+
+        .banner-pic{
+           display: none;
+        }
+
+      .banner{
+        height: 30vh;
+      }
+
+      .q, .a{
+        font-size: 0.7rem;
+      }
+
+      .q-n-a{
+        height: 70vh;
+      }
+
+      #language{
+        font-size: 1rem;
+        width: 10vw;
+      }
+
+    
+    }
+
+    @media only screen and (max-width: 425px) {
+        .a-t-m-s-m-pic{
+            display: none;
+        }
+
+        .c-offer{
+            width: 70vw;
+            height: 42vh;
+        }
+
+        .r-p-year, .r-p-month{
+            height: 16vh;
+            width: 35vw;
+            margin-top:11vh;
+            margin-bottom:5vh;
+        }
+
+        .r-p-year:hover, .r-p-month:hover{
+            height: 18vh;
+            width: 37vw;
+            margin-top:11vh;
+            margin-bottom:5vh;
+        }
+
+        .payment-method{
+            width: 80vw;
+        }
+
+        .button-sign-in-bigger{
+            width: 40vw;
+            margin-top:9vh;
+        }
+        .button-sign-in-bigger:hover{
+            width: 65vw;
+            margin-top:9vh;
+        }
+
+        .offer-p{
+            padding-left:4vw;
+            padding-right:4vw;
+        }
+
+        .nav-right{
+            width: 39vw;
+        }
+
+        .b-log-in, .b-sign-in{
+            width: 18vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .log-in, .sign-in{
+            width: 18vw;
+            font-size: 1rem;
+        }
+
+        .a-t-m-s-text{
+            text-align: center;
+        }
+
+        .all-the-must-sees{
+            height: 34vh;
+            margin-bottom: 5vh;
+        }
+
+        .banner-text-h{
+            font-size: 2rem;
+        }
+
+        .banner{
+            height: 20vh;
+        }
+
+        .f-a-q{
+            font-size: 2rem;
+            padding-left:3vw;
+        }
+
+        .questions-n-answers{
+            width: 70vw;
+        }
+
+        .q-n-a{
+            height: 45vh;
+        }
+
+        #language{
+            width: 25vw;
+        }
+
+        .info{
+            width: 80vw;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        .all-the-must-sees{
+            height: 25vh;
+        }
+
+        .nav-right{
+            height: 7vh;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .b-sign-in, .b-log-in{
+            display: flex;
+            align-items: center;
+            height: 5vh;
+        }
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+            height: 18vh;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        .logo-offer{
+            font-size: 6rem;
+        }
+
+        .all-the-must-sees{
+            height: 32vh;
+        }
+
+        .banner{
+            height: 30vh;
+        }
+
+        .q-n-a{
+            height: 55vh;
+        }
+    }
